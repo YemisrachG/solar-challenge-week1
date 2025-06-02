@@ -1,11 +1,21 @@
 # solar-challenge-week1
-Optimizing solar investment for MoonLight Energy Solutions
-        Document how to reproduce the environment
+This project focuses on analyzing solar radiation measurement data from Benin, Sierra Leone, and Togo to extract actionable insights for solar energy deployment. The goal is to perform exploratory data analysis (EDA), clean and process the dataset, and develop an interactive dashboard to visualize the findings.
 
 
-## Setup
+Datasets
+The following datasets are used in this project:
+•	benin-malanville.csv
+•	sierraleone-bumbuna.csv
+•	togo-dapaong_qc.csv
+Each dataset contains columns such as:
+•	GHI: Global Horizontal Irradiance (W/m²)
+•	DNI: Direct Normal Irradiance (W/m²)
+•	DHI: Diffuse Horizontal Irradiance (W/m²)
+•	Tamb: Ambient Temperature (°C)
+•	RH: Relative Humidity (%)
+•	WS: Wind Speed (m/s)
+•	Precipitation: Precipitation rate (mm/min)
 
-To set up the environment, follow these steps:
 
 1. Clone the repository:
    ```bash
